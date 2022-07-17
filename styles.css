@@ -1,1 +1,84 @@
+.pic{
+    display:grid;
+    background-color:ghostwhite;
+    
+    justify-content:center;
+    
+    
+}
+    
+    
+#pic1{
+    display:flex;
+    background-color:white;
+    
+    justify-content:flex-end;
+    
+  
+    
+    
+    
+}
 
+.parent{
+    display: grid;
+    grid-template-columns: lfr lfr;
+    grid-gap: 10px;
+}
+
+
+
+#landing-image{
+    
+
+background-image:url("https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80");
+
+
+
+
+height: 500px;
+width: 500px;
+
+
+}
+
+#landing{
+    
+  
+    background-color: rgb(59, 18, 18);
+    justify-content:center;
+}
+
+#pic2{
+    display:grid;
+    background-color:aqua;
+    align-items:start;
+
+
+}
+
+.head{
+    display:flex;
+justify-content:center;
+}
+.para{
+    display:grid;
+    
+    justify-content: center;
+    
+}
+.foot{
+    display:grid;
+    background-color:ghostwhite;
+    justify-content: center;
+}
+
+#coverhead{
+    
+   padding:1.5rem; 
+   background-color:#333;
+    color:white;
+    text-align:center;
+    
+    
+}
