@@ -67,7 +67,7 @@ width: 500px;
     
   display:grid;
     background-color: ghostwhite;
-    grid-template-columns: 1fr 729px;
+    grid-template-columns: 1fr 1fr;
     
     
     
