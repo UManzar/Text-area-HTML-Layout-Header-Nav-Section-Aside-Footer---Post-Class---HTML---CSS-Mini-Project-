@@ -42,11 +42,35 @@ width: 500px;
 
 }
 
-#landing{
+.child1{
+    display:grid;
+    background-color:ghostwhite;
+    justify-content: center;
+   
+    align-items: center;
+    text-align:center;
     
-  
-    background-color: rgb(59, 18, 18);
-    justify-content:center;
+    
+}
+
+.child2{
+    display:grid;
+   background-color: white; 
+   
+   height: 100%;
+   width:90%;
+   
+
+}
+
+.landing{
+    
+  display:grid;
+    background-color: ghostwhite;
+    grid-template-columns: 1fr 729px;
+    
+    
+    
 }
 
 #pic2{
@@ -82,3 +106,4 @@ justify-content:center;
     
     
 }
+
